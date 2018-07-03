@@ -52,4 +52,21 @@ class GoodsController extends CommonController {
             $this->error('添加商品失败！',U('addGoods'),3);
         }
     }
+
+    function delGoods(){
+        $goods_model = D('Goods');
+        $data = array(
+            'goods_id' => I('get.id'),
+            'goods_isdel' => I('get.state')
+        );
+        if($goods_model->save($data)){
+            $this->success('修改成功！',U('index'),3);
+        }else{
+            $this->error('修改失败！',U('index'),3);
+        }
+
+    }
+
+
+
 }
