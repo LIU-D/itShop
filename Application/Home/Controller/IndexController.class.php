@@ -24,4 +24,14 @@ class IndexController extends Controller {
         $this->assign('goods_info',$goods_info);
         $this->display();
     }
+
+    function search(){
+        $keyword = I('post.key');
+        $goods_list = D('Goods')
+                    ->where("goods_name like '%$keyword%'")
+                    ->select();
+        $this->assign('goods_list',$goods_list);
+        $this->display();
+
+    }
 }

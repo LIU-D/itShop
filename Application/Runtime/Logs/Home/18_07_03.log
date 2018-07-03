@@ -565,3 +565,557 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
 
+[ 2018-07-03T15:04:23+08:00 ] 127.0.0.1 /index.php/Home/Index/detail/id/1.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2018-07-03T15:04:51+08:00 ] 127.0.0.1 /index.php/Home/Index/detail/id/1.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2018-07-03T15:04:54+08:00 ] 127.0.0.1 /index.php/Home/Index/detail/id/1.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2018-07-03T15:04:59+08:00 ] 127.0.0.1 /index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_isdel="上架" and goods_tj=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_isdel="上架" and goods_cateid=3 ) LIMIT 0,8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 797 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 798 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 797 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 798 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 809 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 810 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2018-07-03T15:04:59+08:00 ] 127.0.0.1 /index.php/Home/Index/upload/2017-12-21/thumb_5a3b4af4d02d5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2018-07-03T15:05:00+08:00 ] 127.0.0.1 /index.php/Home/Index/upload/2017-12-21/thumb_5a3b4c3502afd.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2018-07-03T15:05:00+08:00 ] 127.0.0.1 /index.php/Home/Index/Uploads/2018-07-03/thumb_5b3af7a3e778a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-07-03T15:10:02+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%电脑%' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2018-07-03T15:10:08+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%%' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2018-07-03T15:10:18+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%%' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2018-07-03T15:10:23+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%%' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2018-07-03T15:10:30+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%%' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2018-07-03T15:10:35+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%%' )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2018-07-03T15:12:21+08:00 ] 127.0.0.1 /index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_isdel="上架" and goods_tj=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_isdel="上架" and goods_cateid=3 ) LIMIT 0,8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 797 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 798 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 797 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 798 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 809 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 810 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2018-07-03T15:12:21+08:00 ] 127.0.0.1 /index.php/Home/upload/2017-12-21/thumb_5a3b4af4d02d5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2018-07-03T15:12:21+08:00 ] 127.0.0.1 /index.php/Home/upload/2017-12-21/thumb_5a3b4c3502afd.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2018-07-03T15:12:21+08:00 ] 127.0.0.1 /index.php/Home/Uploads/2018-07-03/thumb_5b3af7a3e778a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-07-03T15:12:24+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%w%' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 694 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2018-07-03T15:13:17+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%%' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2018-07-03T15:13:21+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%请输入商品关键字%' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2018-07-03T15:13:41+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%请输入商品关键字%' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2018-07-03T15:13:46+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%华为%' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2018-07-03T15:13:51+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%电脑%' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2018-07-03T15:13:55+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%9%' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2018-07-03T15:14:00+08:00 ] 127.0.0.1 /index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_name like '%%' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 695 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\thinkphp\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 696 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
