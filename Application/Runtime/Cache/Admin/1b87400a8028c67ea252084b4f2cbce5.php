@@ -45,9 +45,9 @@
             <div class="title"><span><img src="/Public/Admin/images/leftico03.png" /></span>分类管理</div>
             <ul class="menuson">
                 <li>
-                    <cite></cite><a href="#">分类列表</a><i></i></li>
+                    <cite></cite><a href="<?php echo U('Cate/index');?>" target="rightFrame">分类列表</a><i></i></li>
                 <li>
-                    <cite></cite><a href="#">添加分类</a><i></i></li>
+                    <cite></cite><a href="<?php echo U('Cate/addCate');?>" target="rightFrame">添加分类</a><i></i></li>
             </ul>
         </dd>
         <dd>

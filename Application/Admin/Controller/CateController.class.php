@@ -3,7 +3,7 @@ namespace Admin\Controller;
 //use Think\Controller;
 class CateController extends CommonController {
     public function index(){
-        $cate_model = D('cate');
+        $cate_model = D('Cate');
         $cate_list = $cate_model->select();
         $this->assign('cate_list',$cate_list);
         $this->display();

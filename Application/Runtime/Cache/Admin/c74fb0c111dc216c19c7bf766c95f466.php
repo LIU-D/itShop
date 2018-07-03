@@ -18,7 +18,7 @@
     </div>
     <div class="formbody">
         <div class="formtitle"><span>基本信息</span></div>
-        <form action="<?php echo U('addOk');?>" method="post" enctype="multipart/form-data">
+        <form action="<?php echo U('addOK');?>" method="post" enctype="multipart/form-data">
             <ul class="forminfo">
                 <li>
                     <label>商品名称</label>
