@@ -65,7 +65,7 @@
                     </td>
                     <td>{$v.cate_id}</td>
                     <td>{$v.cate_name}</td>
-                    <td><a href="#" class="tablelink">查看</a> <a href="#" class="tablelink"> 删除</a></td>
+                    <td><a href="#" class="tablelink">查看</a> <a href="{:U('delCate','id='.$v[cate_id])}" class="tablelink"> 删除</a></td>
                 </tr>
                 </foreach>
             </tbody>
