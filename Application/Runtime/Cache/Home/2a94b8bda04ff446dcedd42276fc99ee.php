@@ -806,7 +806,7 @@
 						<ul>
 							<?php if(is_array($goods_dn)): foreach($goods_dn as $key=>$v): ?><li>
 								<dl>
-									<dt><a href="<?php echo U('detail', 'id='.$v[goods_id]);?>"><img src="<?php echo ($v["goods_small_logo"]); ?>" alt="" /></a></dt>
+									<dt><a href="<?php echo U('detail', 'id='.$v[goods_id]);?>"><img src="<?php echo (ltrim($v["goods_small_logo"],'.')); ?>" alt="" /></a></dt>
 									<dd><a href="<?php echo U('detail', 'id='.$v[goods_id]);?>"><?php echo ($v["goods_name"]); ?></a></dd>
 									<dd><span>售价：</span> <strong>￥<?php echo ($v["goods_price"]); ?></strong></dd>
 								</dl>
