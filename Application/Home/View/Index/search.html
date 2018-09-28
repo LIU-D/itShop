@@ -693,7 +693,7 @@
 					<foreach name="goods_list" item="v">
 					<li>
 						<dl>
-							<dt><a href="{:U('detail', 'id='.$v[goods_id])}"><img src="{$v.goods_small_logo|ltrim='.'}" alt="" /></a></dt>
+							<dt><a href="{:U('detail', 'id='.$v[goods_id])}"><img src="/itshop{$v.goods_small_logo|ltrim='.'}" alt="" /></a></dt>
 							<dd><a href="{:U('detail', 'id='.$v[goods_id])}">{$v.goods_name}</a></dd>
 							<dd><strong>￥{$v.goods_price}</strong></dd>
 							<dd><a href=""><em>已有10人评价</em></a></dd>

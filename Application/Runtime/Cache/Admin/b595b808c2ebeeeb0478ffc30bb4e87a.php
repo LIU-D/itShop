@@ -4,9 +4,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>欢迎登录京西商城后台管理系统</title>
-    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
-    <script language="JavaScript" src="/Public/Admin/js/jquery.js"></script>
-    <script src="/Public/Admin/js/cloud.js" type="text/javascript"></script>
+    <link href="/itshop/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <script language="JavaScript" src="/itshop/Public/Admin/js/jquery.js"></script>
+    <script src="/itshop/Public/Admin/js/cloud.js" type="text/javascript"></script>
     <script language="javascript">
     $(function() {
         $('.loginbox').css({
@@ -30,7 +30,7 @@
     </style>
 </head>
 
-<body style="background-color:#1c77ac; background-image:url(/Public/Admin/images/light.png); background-repeat:no-repeat; background-position:center top; overflow:hidden;">
+<body style="background-color:#1c77ac; background-image:url(/itshop/Public/Admin/images/light.png); background-repeat:no-repeat; background-position:center top; overflow:hidden;">
     <div id="mainBody">
         <div id="cloud1" class="cloud"></div>
         <div id="cloud2" class="cloud"></div>
@@ -69,7 +69,7 @@
 </body>
 <script type="text/javascript">
 function change(obj){
-    obj.src = "/index.php/Admin/Index/verify/"+Math.random();
+    obj.src = "/itshop/index.php/Admin/Index/verify/"+Math.random();
 }
 </script>
 </html>

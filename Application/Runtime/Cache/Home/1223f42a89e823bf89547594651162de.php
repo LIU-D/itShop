@@ -3,21 +3,21 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>商品页面</title>
-	<link rel="stylesheet" href="/Public/Home/style/base.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/global.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/header.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/goods.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/common.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/bottomnav.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/footer.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/base.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/global.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/header.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/goods.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/common.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/bottomnav.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/footer.css" type="text/css">
 	
 	<!--引入jqzoom css -->
-	<link rel="stylesheet" href="/Public/Home/style/jqzoom.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/jqzoom.css" type="text/css">
 
-	<script type="text/javascript" src="/Public/Home/js/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="/Public/Home/js/header.js"></script>
-	<script type="text/javascript" src="/Public/Home/js/goods.js"></script>
-	<script type="text/javascript" src="/Public/Home/js/jqzoom-core.js"></script>
+	<script type="text/javascript" src="/itshop/Public/Home/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="/itshop/Public/Home/js/header.js"></script>
+	<script type="text/javascript" src="/itshop/Public/Home/js/goods.js"></script>
+	<script type="text/javascript" src="/itshop/Public/Home/js/jqzoom-core.js"></script>
 	
 	<!-- jqzoom 效果 -->
 	<script type="text/javascript">
@@ -61,7 +61,7 @@
 	<div class="header w1210 bc mt15">
 		<!-- 头部上半部分 start 包括 logo、搜索、用户中心和购物车结算 -->
 		<div class="logo w1210">
-			<h1 class="fl"><a href="index.html"><img src="/Public/Home/images/logo.png" alt="京西商城"></a></h1>
+			<h1 class="fl"><a href="index.html"><img src="/itshop/Public/Home/images/logo.png" alt="京西商城"></a></h1>
 			<!-- 头部搜索 start -->
 			<div class="search fl">
 				<div class="search_form">
@@ -116,9 +116,9 @@
 						<div class="viewlist mt10">
 							<h3>最近浏览的商品：</h3>
 							<ul>
-								<li><a href=""><img src="/Public/Home/images/view_list1.jpg" alt="" /></a></li>
-								<li><a href=""><img src="/Public/Home/images/view_list2.jpg" alt="" /></a></li>
-								<li><a href=""><img src="/Public/Home/images/view_list3.jpg" alt="" /></a></li>
+								<li><a href=""><img src="/itshop/Public/Home/images/view_list1.jpg" alt="" /></a></li>
+								<li><a href=""><img src="/itshop/Public/Home/images/view_list2.jpg" alt="" /></a></li>
+								<li><a href=""><img src="/itshop/Public/Home/images/view_list3.jpg" alt="" /></a></li>
 							</ul>
 						</div>
 					</dd>
@@ -502,7 +502,7 @@
 					<ul>
 						<li>
 							<dl>
-								<dt><a href=""><img src="/Public/Home/images/relate_view1.jpg" alt="" /></a></dt>
+								<dt><a href=""><img src="/itshop/Public/Home/images/relate_view1.jpg" alt="" /></a></dt>
 								<dd><a href="">ThinkPad E431(62771A7) 14英寸笔记本电脑 (i5-3230 4G 1TB 2G独显 蓝牙 win8)</a></dd>
 								<dd><strong>￥5199.00</strong></dd>
 							</dl>
@@ -510,7 +510,7 @@
 
 						<li>
 							<dl>
-								<dt><a href=""><img src="/Public/Home/images/relate_view2.jpg" alt="" /></a></dt>
+								<dt><a href=""><img src="/itshop/Public/Home/images/relate_view2.jpg" alt="" /></a></dt>
 								<dd><a href="">ThinkPad X230i(2306-3V9） 12.5英寸笔记本电脑 （i3-3120M 4GB 500GB 7200转 蓝牙 摄像头 Win8）</a></dd>
 								<dd><strong>￥5199.00</strong></dd>
 							</dl>
@@ -518,7 +518,7 @@
 
 						<li>
 							<dl>
-								<dt><a href=""><img src="/Public/Home/images/relate_view3.jpg" alt="" /></a></dt>
+								<dt><a href=""><img src="/itshop/Public/Home/images/relate_view3.jpg" alt="" /></a></dt>
 								<dd><a href="">T联想（Lenovo） Yoga13 II-Pro 13.3英寸超极本 （i5-4200U 4G 128G固态硬盘 摄像头 蓝牙 Win8）晧月银</a></dd>
 								<dd><strong>￥7999.00</strong></dd>
 							</dl>
@@ -526,7 +526,7 @@
 
 						<li>
 							<dl>
-								<dt><a href=""><img src="/Public/Home/images/relate_view4.jpg" alt="" /></a></dt>
+								<dt><a href=""><img src="/itshop/Public/Home/images/relate_view4.jpg" alt="" /></a></dt>
 								<dd><a href="">联想（Lenovo） Y510p 15.6英寸笔记本电脑（i5-4200M 4G 1T 2G独显 摄像头 DVD刻录 Win8）黑色</a></dd>
 								<dd><strong>￥6199.00</strong></dd>
 							</dl>
@@ -534,7 +534,7 @@
 
 						<li class="last">
 							<dl>
-								<dt><a href=""><img src="/Public/Home/images/relate_view5.jpg" alt="" /></a></dt>
+								<dt><a href=""><img src="/itshop/Public/Home/images/relate_view5.jpg" alt="" /></a></dt>
 								<dd><a href="">ThinkPad E530c(33662D0) 15.6英寸笔记本电脑 （i5-3210M 4G 500G NV610M 1G独显 摄像头 Win8）</a></dd>
 								<dd><strong>￥4399.00</strong></dd>
 							</dl>
@@ -549,12 +549,12 @@
 				<h2><a href="">清空</a><strong>最近浏览过的商品</strong></h2>
 				<div class="leftbar_wrap">
 					<dl>
-						<dt><a href=""><img src="/Public/Home/images/hpG4.jpg" alt="" /></a></dt>
+						<dt><a href=""><img src="/itshop/Public/Home/images/hpG4.jpg" alt="" /></a></dt>
 						<dd><a href="">惠普G4-1332TX 14英寸笔记...</a></dd>
 					</dl>
 
 					<dl class="last">
-						<dt><a href=""><img src="/Public/Home/images/crazy4.jpg" alt="" /></a></dt>
+						<dt><a href=""><img src="/itshop/Public/Home/images/crazy4.jpg" alt="" /></a></dt>
 						<dd><a href="">直降200元！TCL正1.5匹空调</a></dd>
 					</dl>
 				</div>
@@ -573,8 +573,8 @@
 				<!-- 图片预览区域 start -->
 				<div class="preview fl">
 					<div class="midpic">
-						<a href="/Public/Home/images/preview_l1.jpg" class="jqzoom" rel="gal1">   <!-- 第一幅图片的大图 class 和 rel属性不能更改 -->
-							<img src="/Public/Home/images/preview_m1.jpg" alt="" />               <!-- 第一幅图片的中图 -->
+						<a href="/itshop/Public/Home/images/preview_l1.jpg" class="jqzoom" rel="gal1">   <!-- 第一幅图片的大图 class 和 rel属性不能更改 -->
+							<img src="/itshop/Public/Home/images/preview_m1.jpg" alt="" />               <!-- 第一幅图片的中图 -->
 						</a>
 					</div>
 	
@@ -586,45 +586,45 @@
 						<div class="smallpic_wrap">
 							<ul>
 								<li class="cur">
-									<a class="zoomThumbActive" href="javascript:void(0);" rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m1.jpg',largeimage: '/Public/Home/images/preview_l1.jpg'}"><img src="/Public/Home/images/preview_s1.jpg"></a>
+									<a class="zoomThumbActive" href="javascript:void(0);" rel="{gallery: 'gal1', smallimage: '/itshop/Public/Home/images/preview_m1.jpg',largeimage: '/itshop/Public/Home/images/preview_l1.jpg'}"><img src="/itshop/Public/Home/images/preview_s1.jpg"></a>
 								</li>
 								<li>
-									<a href="javascript:void(0);" rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m2.jpg',largeimage: '/Public/Home/images/preview_l2.jpg'}"><img src="/Public/Home/images/preview_s2.jpg"></a>
-								</li>
-								<li>
-									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m3.jpg',largeimage: '/Public/Home/images/preview_l3.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s3.jpg"></a>
+									<a href="javascript:void(0);" rel="{gallery: 'gal1', smallimage: '/itshop/Public/Home/images/preview_m2.jpg',largeimage: '/itshop/Public/Home/images/preview_l2.jpg'}"><img src="/itshop/Public/Home/images/preview_s2.jpg"></a>
 								</li>
 								<li>
 									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m4.jpg',largeimage: '/Public/Home/images/preview_l4.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s4.jpg"></a>
+									rel="{gallery: 'gal1', smallimage: '/itshop/Public/Home/images/preview_m3.jpg',largeimage: '/itshop/Public/Home/images/preview_l3.jpg'}">  
+	    							<img src="/itshop/Public/Home/images/preview_s3.jpg"></a>
 								</li>
 								<li>
 									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m5.jpg',largeimage: '/Public/Home/images/preview_l5.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s5.jpg"></a>
+									rel="{gallery: 'gal1', smallimage: '/itshop/Public/Home/images/preview_m4.jpg',largeimage: '/itshop/Public/Home/images/preview_l4.jpg'}">  
+	    							<img src="/itshop/Public/Home/images/preview_s4.jpg"></a>
 								</li>
 								<li>
 									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m6.jpg',largeimage: '/Public/Home/images/preview_l6.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s6.jpg"></a>
+									rel="{gallery: 'gal1', smallimage: '/itshop/Public/Home/images/preview_m5.jpg',largeimage: '/itshop/Public/Home/images/preview_l5.jpg'}">  
+	    							<img src="/itshop/Public/Home/images/preview_s5.jpg"></a>
 								</li>
 								<li>
 									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m7.jpg',largeimage: '/Public/Home/images/preview_l7.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s7.jpg"></a>
+									rel="{gallery: 'gal1', smallimage: '/itshop/Public/Home/images/preview_m6.jpg',largeimage: '/itshop/Public/Home/images/preview_l6.jpg'}">  
+	    							<img src="/itshop/Public/Home/images/preview_s6.jpg"></a>
 								</li>
 								<li>
 									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m8.jpg',largeimage: '/Public/Home/images/preview_l8.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s8.jpg"></a>
+									rel="{gallery: 'gal1', smallimage: '/itshop/Public/Home/images/preview_m7.jpg',largeimage: '/itshop/Public/Home/images/preview_l7.jpg'}">  
+	    							<img src="/itshop/Public/Home/images/preview_s7.jpg"></a>
 								</li>
 								<li>
 									<a href="javascript:void(0);" 
-									rel="{gallery: 'gal1', smallimage: '/Public/Home/images/preview_m9.jpg',largeimage: '/Public/Home/images/preview_l9.jpg'}">  
-	    							<img src="/Public/Home/images/preview_s9.jpg"></a>
+									rel="{gallery: 'gal1', smallimage: '/itshop/Public/Home/images/preview_m8.jpg',largeimage: '/itshop/Public/Home/images/preview_l8.jpg'}">  
+	    							<img src="/itshop/Public/Home/images/preview_s8.jpg"></a>
+								</li>
+								<li>
+									<a href="javascript:void(0);" 
+									rel="{gallery: 'gal1', smallimage: '/itshop/Public/Home/images/preview_m9.jpg',largeimage: '/itshop/Public/Home/images/preview_l9.jpg'}">  
+	    							<img src="/itshop/Public/Home/images/preview_s9.jpg"></a>
 								</li>
 							</ul>
 						</div>
@@ -770,7 +770,7 @@
 						<div class="comment_items mt10">
 							<div class="user_pic">
 								<dl>
-									<dt><a href=""><img src="/Public/Home/images/user1.gif" alt="" /></a></dt>
+									<dt><a href=""><img src="/itshop/Public/Home/images/user1.gif" alt="" /></a></dt>
 									<dd><a href="">乖乖</a></dd>
 								</dl>
 							</div>
@@ -808,7 +808,7 @@
 						<div class="comment_items mt10">
 							<div class="user_pic">
 								<dl>
-									<dt><a href=""><img src="/Public/Home/images/user2.jpg" alt="" /></a></dt>
+									<dt><a href=""><img src="/itshop/Public/Home/images/user2.jpg" alt="" /></a></dt>
 									<dd><a href="">小宝贝</a></dd>
 								</dl>
 							</div>
@@ -842,7 +842,7 @@
 						<div class="comment_items mt10">
 							<div class="user_pic">
 								<dl>
-									<dt><a href=""><img src="/Public/Home/images/user3.jpg" alt="" /></a></dt>
+									<dt><a href=""><img src="/itshop/Public/Home/images/user3.jpg" alt="" /></a></dt>
 									<dd><a href="">天使</a></dd>
 								</dl>
 							</div>
@@ -1043,10 +1043,10 @@
 			 © 2005-2013 京东网上商城 版权所有，并保留所有权利。  ICP备案证书号:京ICP证070359号 
 		</p>
 		<p class="auth">
-			<a href=""><img src="/Public/Home/images/xin.png" alt="" /></a>
-			<a href=""><img src="/Public/Home/images/kexin.jpg" alt="" /></a>
-			<a href=""><img src="/Public/Home/images/police.jpg" alt="" /></a>
-			<a href=""><img src="/Public/Home/images/beian.gif" alt="" /></a>
+			<a href=""><img src="/itshop/Public/Home/images/xin.png" alt="" /></a>
+			<a href=""><img src="/itshop/Public/Home/images/kexin.jpg" alt="" /></a>
+			<a href=""><img src="/itshop/Public/Home/images/police.jpg" alt="" /></a>
+			<a href=""><img src="/itshop/Public/Home/images/beian.gif" alt="" /></a>
 		</p>
 	</div>
 	<!-- 底部版权 end -->

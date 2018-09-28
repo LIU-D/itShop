@@ -4,8 +4,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>无标题文档</title>
-    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
-    <script language="JavaScript" src="/Public/Admin/js/jquery.js"></script>
+    <link href="/itshop/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <script language="JavaScript" src="/itshop/Public/Admin/js/jquery.js"></script>
     <script type="text/javascript">
     $(function() {
         //导航切换
@@ -32,7 +32,7 @@
     <dl class="leftmenu">
         <dd>
             <div class="title">
-                <span><img src="/Public/Admin/images/leftico01.png" /></span>商品管理
+                <span><img src="/itshop/Public/Admin/images/leftico01.png" /></span>商品管理
             </div>
             <ul class="menuson">
                 <li class="active">
@@ -42,7 +42,7 @@
             </ul>
         </dd>
         <dd>
-            <div class="title"><span><img src="/Public/Admin/images/leftico03.png" /></span>分类管理</div>
+            <div class="title"><span><img src="/itshop/Public/Admin/images/leftico03.png" /></span>分类管理</div>
             <ul class="menuson">
                 <li>
                     <cite></cite><a href="<?php echo U('Cate/index');?>" target="rightFrame">分类列表</a><i></i></li>
@@ -52,7 +52,7 @@
         </dd>
         <dd>
             <div class="title">
-                <span><img src="/Public/Admin/images/leftico02.png" /></span>订单管理
+                <span><img src="/itshop/Public/Admin/images/leftico02.png" /></span>订单管理
             </div>
             <ul class="menuson">
                 <li>
@@ -62,7 +62,7 @@
             </ul>
         </dd>
         <dd>
-            <div class="title"><span><img src="/Public/Admin/images/leftico04.png" /></span>权限管理</div>
+            <div class="title"><span><img src="/itshop/Public/Admin/images/leftico04.png" /></span>权限管理</div>
             <ul class="menuson">
                 <li>
                     <cite></cite><a href="#">用户管理</a><i></i></li>

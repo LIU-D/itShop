@@ -3,17 +3,17 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>商品列表页</title>
-	<link rel="stylesheet" href="/Public/Home/style/base.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/global.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/header.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/list.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/common.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/bottomnav.css" type="text/css">
-	<link rel="stylesheet" href="/Public/Home/style/footer.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/base.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/global.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/header.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/list.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/common.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/bottomnav.css" type="text/css">
+	<link rel="stylesheet" href="/itshop/Public/Home/style/footer.css" type="text/css">
 	
-	<script type="text/javascript" src="/Public/Home/js/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="/Public/Home/js/header.js"></script>
-	<script type="text/javascript" src="/Public/Home/js/list.js"></script>
+	<script type="text/javascript" src="/itshop/Public/Home/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="/itshop/Public/Home/js/header.js"></script>
+	<script type="text/javascript" src="/itshop/Public/Home/js/list.js"></script>
 </head>
 <body>
 	<!-- 顶部导航 start -->
@@ -42,7 +42,7 @@
 	<div class="header w1210 bc mt15">
 		<!-- 头部上半部分 start 包括 logo、搜索、用户中心和购物车结算 -->
 		<div class="logo w1210">
-			<h1 class="fl"><a href="index.html"><img src="/Public/Home/images/logo.png" alt="京西商城"></a></h1>
+			<h1 class="fl"><a href="index.html"><img src="/itshop/Public/Home/images/logo.png" alt="京西商城"></a></h1>
 			<!-- 头部搜索 start -->
 			<div class="search fl">
 				<div class="search_form">
@@ -98,9 +98,9 @@
 						<div class="viewlist mt10">
 							<h3>最近浏览的商品：</h3>
 							<ul>
-								<li><a href=""><img src="/Public/Home/images/view_list1.jpg" alt="" /></a></li>
-								<li><a href=""><img src="/Public/Home/images/view_list2.jpg" alt="" /></a></li>
-								<li><a href=""><img src="/Public/Home/images/view_list3.jpg" alt="" /></a></li>
+								<li><a href=""><img src="/itshop/Public/Home/images/view_list1.jpg" alt="" /></a></li>
+								<li><a href=""><img src="/itshop/Public/Home/images/view_list2.jpg" alt="" /></a></li>
+								<li><a href=""><img src="/itshop/Public/Home/images/view_list3.jpg" alt="" /></a></li>
 							</ul>
 						</div>
 					</dd>
@@ -499,7 +499,7 @@
 					<ul>
 						<li>
 							<dl>
-								<dt><a href=""><img src="/Public/Home/images/list_hot1.jpg" alt="" /></a></dt>
+								<dt><a href=""><img src="/itshop/Public/Home/images/list_hot1.jpg" alt="" /></a></dt>
 								<dd><a href="">美即流金丝语悦白美颜新年装4送3</a></dd>
 								<dd><strong>￥777.50</strong></dd>
 							</dl>
@@ -507,7 +507,7 @@
 
 						<li>
 							<dl>
-								<dt><a href=""><img src="/Public/Home/images/list_hot2.jpg" alt="" /></a></dt>
+								<dt><a href=""><img src="/itshop/Public/Home/images/list_hot2.jpg" alt="" /></a></dt>
 								<dd><a href="">领券满399减50 金斯利安多维片</a></dd>
 								<dd><strong>￥239.00</strong></dd>
 							</dl>
@@ -515,7 +515,7 @@
 
 						<li class="last">
 							<dl>
-								<dt><a href=""><img src="/Public/Home/images/list_hot3.jpg" alt="" /></a></dt>
+								<dt><a href=""><img src="/itshop/Public/Home/images/list_hot3.jpg" alt="" /></a></dt>
 								<dd><a href="">皮尔卡丹pierrecardin 男士长...</a></dd>
 								<dd><strong>￥1240.50</strong></dd>
 							</dl>
@@ -541,12 +541,12 @@
 				<h2><a href="">清空</a><strong>最近浏览过的商品</strong></h2>
 				<div class="leftbar_wrap">
 					<dl>
-						<dt><a href=""><img src="/Public/Home/images/hpG4.jpg" alt="" /></a></dt>
+						<dt><a href=""><img src="/itshop/Public/Home/images/hpG4.jpg" alt="" /></a></dt>
 						<dd><a href="">惠普G4-1332TX 14英寸笔记...</a></dd>
 					</dl>
 
 					<dl class="last">
-						<dt><a href=""><img src="/Public/Home/images/crazy4.jpg" alt="" /></a></dt>
+						<dt><a href=""><img src="/itshop/Public/Home/images/crazy4.jpg" alt="" /></a></dt>
 						<dd><a href="">直降200元！TCL正1.5匹空调</a></dd>
 					</dl>
 				</div>
@@ -565,7 +565,7 @@
 					<ul>
 						<li>
 							<dl>
-								<dt><a href=""><img src="/Public/Home/images/hpG4.jpg" alt="" /></a></dt>
+								<dt><a href=""><img src="/itshop/Public/Home/images/hpG4.jpg" alt="" /></a></dt>
 								<dd class="name"><a href="">惠普G4-1332TX 14英寸笔记本电脑 （i5-2450M 2G 5</a></dd>
 								<dd class="price">特价：<strong>￥2999.00</strong></dd>
 								<dd class="buy"><span>立即抢购</span></dd>
@@ -574,7 +574,7 @@
 
 						<li>
 							<dl>
-								<dt><a href=""><img src="/Public/Home/images/list_hot3.jpg" alt="" /></a></dt>
+								<dt><a href=""><img src="/itshop/Public/Home/images/list_hot3.jpg" alt="" /></a></dt>
 								<dd class="name"><a href="">ThinkPad E42014英寸笔记本电脑</a></dd>
 								<dd class="price">特价：<strong>￥4199.00</strong></dd>
 								<dd class="buy"><span>立即抢购</span></dd>
@@ -583,7 +583,7 @@
 
 						<li>
 							<dl>
-								<dt><a href=""><img src="/Public/Home/images/acer4739.jpg" alt="" /></a></dt>
+								<dt><a href=""><img src="/itshop/Public/Home/images/acer4739.jpg" alt="" /></a></dt>
 								<dd class="name"><a href="">宏碁AS4739-382G32Mnkk 14英寸笔记本电脑</a></dd>
 								<dd class="price">特价：<strong>￥2799.00</strong></dd>
 								<dd class="buy"><span>立即抢购</span></dd>
@@ -692,7 +692,7 @@
 				<ul>
 					<?php if(is_array($goods_list)): foreach($goods_list as $key=>$v): ?><li>
 						<dl>
-							<dt><a href="<?php echo U('detail', 'id='.$v[goods_id]);?>"><img src="<?php echo (ltrim($v["goods_small_logo"],'.')); ?>" alt="" /></a></dt>
+							<dt><a href="<?php echo U('detail', 'id='.$v[goods_id]);?>"><img src="/itshop<?php echo (ltrim($v["goods_small_logo"],'.')); ?>" alt="" /></a></dt>
 							<dd><a href="<?php echo U('detail', 'id='.$v[goods_id]);?>"><?php echo ($v["goods_name"]); ?></a></dd>
 							<dd><strong>￥<?php echo ($v["goods_price"]); ?></strong></dd>
 							<dd><a href=""><em>已有10人评价</em></a></dd>
@@ -810,10 +810,10 @@
 			 © 2005-2013 京东网上商城 版权所有，并保留所有权利。  ICP备案证书号:京ICP证070359号 
 		</p>
 		<p class="auth">
-			<a href=""><img src="/Public/Home/images/xin.png" alt="" /></a>
-			<a href=""><img src="/Public/Home/images/kexin.jpg" alt="" /></a>
-			<a href=""><img src="/Public/Home/images/police.jpg" alt="" /></a>
-			<a href=""><img src="/Public/Home/images/beian.gif" alt="" /></a>
+			<a href=""><img src="/itshop/Public/Home/images/xin.png" alt="" /></a>
+			<a href=""><img src="/itshop/Public/Home/images/kexin.jpg" alt="" /></a>
+			<a href=""><img src="/itshop/Public/Home/images/police.jpg" alt="" /></a>
+			<a href=""><img src="/itshop/Public/Home/images/beian.gif" alt="" /></a>
 		</p>
 	</div>
 	<!-- 底部版权 end -->

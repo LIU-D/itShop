@@ -1,0 +1,24 @@
+[ 2018-07-06T16:47:03+08:00 ] 127.0.0.1 /itshop/upload/2017-12-21/thumb_5a3b4cca7e99c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:Upload
+
+[ 2018-07-06T16:47:03+08:00 ] 127.0.0.1 /itshop/upload/2017-12-21/thumb_5a3b4c3502afd.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Upload
+
+[ 2018-07-06T16:47:03+08:00 ] 127.0.0.1 /itshop/upload/2017-12-21/thumb_5a3b4af4d02d5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Upload
+
+[ 2018-07-06T16:47:03+08:00 ] 127.0.0.1 /itshop/upload/2017-12-21/thumb_5a3b4ced009e0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:Upload
+

@@ -4,8 +4,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>无标题文档</title>
-    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
-    <script language="JavaScript" src="/Public/Admin/js/jquery.js"></script>
+    <link href="/itshop/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <script language="JavaScript" src="/itshop/Public/Admin/js/jquery.js"></script>
 </head>
 
 <body>

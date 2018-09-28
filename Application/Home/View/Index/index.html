@@ -795,7 +795,7 @@
 							<foreach name="goods_tj" item="v">
 							<li>
 								<dl>
-									<dt><a href="{:U('detail', 'id='.$v[goods_id])}"><img src="{$v.goods_small_logo}" alt="" /></a></dt>
+									<dt><a href="{:U('detail', 'id='.$v[goods_id])}"><img src="/itshop{$v.goods_small_logo|ltrim=###,'.'}" alt="" /></a></dt>
 									<dd><a href="{:U('detail', 'id='.$v[goods_id])}">{$v.goods_name}</a></dd>
 									<dd><span>售价：</span> <strong>￥{$v.goods_price}</strong></dd>
 								</dl>
@@ -809,7 +809,7 @@
 							<foreach name="goods_dn" item="v">
 							<li>
 								<dl>
-									<dt><a href="{:U('detail', 'id='.$v[goods_id])}"><img src="{$v.goods_small_logo|ltrim=###,'.'}" alt="" /></a></dt>
+									<dt><a href="{:U('detail', 'id='.$v[goods_id])}"><img src="/itshop{$v.goods_small_logo|ltrim=###,'.'}" alt="" /></a></dt>
 									<dd><a href="{:U('detail', 'id='.$v[goods_id])}">{$v.goods_name}</a></dd>
 									<dd><span>售价：</span> <strong>￥{$v.goods_price}</strong></dd>
 								</dl>

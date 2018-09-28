@@ -4,8 +4,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>无标题文档</title>
-    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+    <link href="/itshop/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/itshop/Public/Admin/js/jquery.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         $(".click").click(function() {
@@ -40,10 +40,10 @@
     <div class="rightinfo">
         <div class="tools">
             <ul class="toolbar">
-                <li><span><img src="/Public/Admin/images/t01.png" /></span>添加</li>
-                <li><span><img src="/Public/Admin/images/t02.png" /></span>修改</li>
-                <li><span><img src="/Public/Admin/images/t03.png" /></span>删除</li>
-                <li><span><img src="/Public/Admin/images/t04.png" /></span>统计</li>
+                <li><span><img src="/itshop/Public/Admin/images/t01.png" /></span>添加</li>
+                <li><span><img src="/itshop/Public/Admin/images/t02.png" /></span>修改</li>
+                <li><span><img src="/itshop/Public/Admin/images/t03.png" /></span>删除</li>
+                <li><span><img src="/itshop/Public/Admin/images/t04.png" /></span>统计</li>
             </ul>
         </div>
         <table class="tablelist">
@@ -87,7 +87,7 @@
                 <a></a>
             </div>
             <div class="tipinfo">
-                <span><img src="/Public/Admin/images/ticon.png" /></span>
+                <span><img src="/itshop/Public/Admin/images/ticon.png" /></span>
                 <div class="tipright">
                     <p>是否确认对信息的修改 ？</p>
                     <cite>如果是请点击确定按钮 ，否则请点取消。</cite>

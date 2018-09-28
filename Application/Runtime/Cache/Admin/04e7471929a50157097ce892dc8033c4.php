@@ -4,8 +4,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>无标题文档</title>
-    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+    <link href="/itshop/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/itshop/Public/Admin/js/jquery.js"></script>
 </head>
 
 <body>
@@ -17,18 +17,18 @@
     </div>
     <div class="mainindex">
         <div class="welinfo">
-            <span><img src="/Public/Admin/images/sun.png" alt="天气" /></span>
+            <span><img src="/itshop/Public/Admin/images/sun.png" alt="天气" /></span>
             <b><?php echo (session('name')); ?> 早上好，欢迎使用商品管理系统</b>
             <a href="#">帐号设置</a>
         </div>
         <div class="welinfo">
-            <span><img src="/Public/Admin/images/time.png" alt="时间" /></span>
+            <span><img src="/itshop/Public/Admin/images/time.png" alt="时间" /></span>
             <i>您上次登录的时间：2013-10-09 15:22</i>
         </div>
         <div class="xline"></div>
         <div class="box"></div>
         <div class="welinfo">
-            <span><img src="/Public/Admin/images/dp.png" alt="提醒" /></span>
+            <span><img src="/itshop/Public/Admin/images/dp.png" alt="提醒" /></span>
             <b>环境信息</b>
         </div>
         <ul class="infolist">

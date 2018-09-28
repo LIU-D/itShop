@@ -1,0 +1,31 @@
+[ 2018-07-05T15:06:28+08:00 ] 127.0.0.1 /itshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_isdel="上架" and goods_tj=1 )  [ RunTime:0.0220s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_isdel="上架" and goods_cateid=3 ) LIMIT 0,8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\itshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 797 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\itshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 798 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\itshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 797 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\itshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 798 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\itshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 809 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\itshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 810 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\itshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 809 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' D:\Software\phpstudy\PHPTutorial\WWW\itshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 810 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001547s ]
+

@@ -4,8 +4,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>无标题文档</title>
-    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
-    <script language="JavaScript" src="/Public/Admin/js/jquery.js"></script>
+    <link href="/itshop/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <script language="JavaScript" src="/itshop/Public/Admin/js/jquery.js"></script>
     <script type="text/javascript">
     $(function() {
         //顶部导航切换
@@ -17,17 +17,17 @@
     </script>
 </head>
 
-<body style="background:url(/Public/Admin/images/topbg.gif) repeat-x;">
+<body style="background:url(/itshop/Public/Admin/images/topbg.gif) repeat-x;">
     <div class="topleft">
-        <a href="main.html" target="_parent"><img src="/Public/Admin/images/logo.png" title="系统首页" /></a>
+        <a href="main.html" target="_parent"><img src="/itshop/Public/Admin/images/logo.png" title="系统首页" /></a>
     </div>
     <ul class="nav">
         <li>
-            <a href="main.html" target="rightFrame" class="selected"><img src="/Public/Admin/images/icon01.png" title="首页" />
+            <a href="main.html" target="rightFrame" class="selected"><img src="/itshop/Public/Admin/images/icon01.png" title="首页" />
                 <h2>首页</h2></a>
         </li>
         <li>
-            <a href="rbac.html" target="rightFrame"><img src="/Public/Admin/images/icon06.png" title="权限设置" />
+            <a href="rbac.html" target="rightFrame"><img src="/itshop/Public/Admin/images/icon06.png" title="权限设置" />
                 <h2>权限设置</h2></a>
         </li>
     </ul>
